@@ -20,5 +20,7 @@
 }
 
 .root {
+  background: #2A2C2F;
   font-family: 'Inter';
+  color: #FFF;
 }

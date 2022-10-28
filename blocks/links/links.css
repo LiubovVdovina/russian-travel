@@ -1,0 +1,10 @@
+.links {
+  display: flex;
+  gap: 18px;
+}
+
+@media screen and (max-width: 425px) {
+  .links {
+    flex-wrap: wrap;
+  }
+}
