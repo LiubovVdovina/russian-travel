@@ -1,9 +1,10 @@
 .links_place_header {
     font-size: 24px;
     line-height: 28px;
+    font-weight: 400;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 740px) {
   .links_place_header {
     font-size: 18px;
     line-height: 20px;

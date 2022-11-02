@@ -1,0 +1,12 @@
+.footer__column_content_copyright {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column_content_copyright {
+    line-height: 1;
+  }
+}
