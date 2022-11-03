@@ -4,6 +4,7 @@
   line-height: 1.7;
   font-weight: 400;
   letter-spacing: 2px;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -11,5 +12,4 @@
   .places__url-heading {
     line-height: 1;
   }
-  
 }

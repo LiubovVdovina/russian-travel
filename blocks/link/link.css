@@ -1,0 +1,11 @@
+.link {
+  color: inherit;
+  text-decoration: none;
+  transition: .5s;
+  transition-property: opacity;
+  max-width: fit-content;
+}
+
+.link:hover {
+  opacity: .8;
+}

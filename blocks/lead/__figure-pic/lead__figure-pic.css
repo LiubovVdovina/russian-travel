@@ -1,26 +1,18 @@
-.lead__image {
+.lead__figure-pic {
   width: 100%;
   padding: 0 148px;
-  margin: 64px 0 0;
   object-fit: cover;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1124px) {
-  .lead__image {
+  .lead__figure-pic {
     padding: 0 48px;
-    margin-top: 56px;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .lead__image {
+  .lead__figure-pic {
     padding: 0;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .lead__image {
-    margin-top: 40px;
   }
 }

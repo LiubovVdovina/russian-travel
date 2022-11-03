@@ -9,17 +9,19 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="логотип">
-    <div class="links links_place_header">
-      <a class="links__item" href="#">Ru</a>
-      <a class="links__item" >En</a>
+    <div class="header__links">
+      <a class="link link_place_header link_active" href="#">Ru</a>
+      <a class="link link_place_header" href="#">En</a>
     </div>
   </header>
   <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="./images/lead-polka.png" alt="девушка в поезде">
-      <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
+      <figure class="lead__figure">
+        <img class="lead__figure-pic" src="./images/lead-polka.png" alt="девушка в поезде">
+        <figcaption class="lead__figure-text">ваша полка — верхняя</figcaption>
+    </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -55,8 +57,8 @@
       <div class="places__item">
         <h2 class="places__title">Куршская коса</h2>
         <div class="places__url">
-          <h3 class="places__url-heading">URL</h3>
-          <a class="places__link" href="http://park-kosa.ru">park-kosa.ru</a>
+          <span class="places__url-heading">url</span>
+          <a class="link link_place_places" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
         </div>
         <img class="places__image" src="./images/place-kosa.jpg" alt="Куршская коса">
         <div class="places__text">
@@ -67,8 +69,8 @@
       <div class="places__item">
         <h2 class="places__title">Кольский</h2>
         <div class="places__url">
-          <h3 class="places__url-heading">URL</h3>
-          <a class="places__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+          <span class="places__url-heading">url</span>
+          <a class="link link_place_places" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
         </div>
         <img class="places__image" src="./images/place-kolsky.jpg" alt="Кольский">
         <div class="places__text">
@@ -81,8 +83,8 @@
       <div class="places__item">
         <h2 class="places__title">Алтай</h2>
         <div class="places__url">
-          <h3 class="places__url-heading">URL</h3>
-          <a class="places__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+          <span class="places__url-heading">url</span>
+          <a class="link link_place_places" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
         </div>
         <img class="places__image" src="./images/place-altai.jpg" alt="Алтай">
         <div class="places__text">
@@ -94,8 +96,8 @@
       <div class="places__item">
         <h2 class="places__title">Зимний Байкал</h2>
         <div class="places__url">
-          <h3 class="places__url-heading">URL</h3>
-          <a class="places__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+          <span class="places__url-heading">url</span>
+          <a class="link link_place_places" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
         <img class="places__image" src="./images/place-winter-baikal.jpg" alt="Байкал">
         <div class="places__text">
@@ -108,8 +110,8 @@
       <div class="places__item">
         <h2 class="places__title">Карелия</h2>
         <div class="places__url">
-          <h3 class="places__url-heading">URL</h3>
-          <a class="places__link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+          <span class="places__url-heading">url</span>
+          <a class="link link_place_places" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
         </div>
         <img class="places__image" src="./images/place-karelia.jpg" alt="Карелия">
         <div class="places__text">
@@ -120,7 +122,7 @@
       </div>
     </section>
     <section class="cover">
-      <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
         <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
         <p class="cover__subtitle">По&nbsp;мотивам учебной темы 
           о&nbsp;Транссибе&nbsp;&mdash; путешествие 
@@ -129,18 +131,18 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__columns">
-      <div class="footer__column footer__column_content_links">
-        <a class="footer__column-link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__column-link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__column-link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__column-link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__column-link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </div>
-      <p class="footer__column footer__column_content_copyright">
+    <nav class="footer__links">
+      <ul class="footer__links-list">
+        <li><a class="link link_place_footer" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li><a class="link link_place_footer" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li><a class="link link_place_footer" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li><a class="link link_place_footer" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li><a class="link link_place_footer" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+      </ul>
+    </nav>
+      <span class="footer__copyright">
         &copy; 2022. Любовь Кушко
-      </p>
-    </div>
+      </span>
   </footer>
 </body>
 </html>
